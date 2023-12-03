@@ -3,7 +3,7 @@ from hugchat.login import Login
 import os
 
 # Log in to huggingface and grant authorization to huggingchat
-sign = Login('gaelorian1107@gmail.com', 'Liligael3&')
+sign = Login('EMAIL', 'PASSWORD')
 cookies = sign.login()
 
 # Save cookies to the local directory
